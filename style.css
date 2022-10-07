@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    background-color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.head h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+.head h1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone img {
+    height: 100vh;
+    rotate: 24deg;
+    /* position: absolute; */
+    padding: 0 4%;
+}
+
+.container-fluid {
+    padding: 1% 4%;
+}
+
+#navbarSupportedContent ul li a {
+    color: white;
+}
+
+#navbarSupportedContent ul li a :hover {
+    transition: 0.2s ease-in-out;
+    color: black;
+    font-size: 20px;
+}
+
+#features {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 120px;
+    /* position: relative;
+    z-index: 1; */
+    /* background-color: white; */
+}
+
+#features i {
+    color: #ff4c68;
+}
+
+#testimonials {
+    padding: 4% 6%;
+    /* text-align: center; */
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#testimonials h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ff4c68;
+}
+
+.card-body {
+    color: black;
+}
+
+#testimonials img {
+    /* border-radius: 100%; */
+    padding: 6%;
+    /* height: 200px; */
+}
+
+#press {
+    padding: 8% 6%;
+    text-align: center;
+    color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.press-logo {
+    height: 10%;
+    width: 20%;
+    padding: 6% 2%;
+    text-align: center;
+}
+
+#pricing {
+    background-color: #ff4c68;
+    padding: 4% 6%;
+}
+
+#pricing h2 {
+    background-color: #000000;
+    color: #ff4c68;
+    padding: 4% 6%;
+}
+
+#cta {
+    padding: 8% 6%;
+    text-align: center;
+    color: #ff4c68;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.icons i {
+    padding: 6px 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.icons i :hover {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+
+
+
+@media (max-width: 1400px) {
+    .phone img {
+        height: 60vh;
+        overflow: hidden;
+        rotate: 24deg;
+    }
+
+    .head h1 {
+        font-size: 2rem;
+    }
+
+    /* #testimonials img {
+        border-radius: 100%;
+        padding: 4%;
+        height: 200px;
+        display: block;
+        margin: auto;
+    } */
+
+}
+
+@media (max-width: 600px) {
+    .phone img {
+        height: 44vh;
+        overflow: hidden;
+        rotate: 0deg;
+    }
+
+    .head h1 {
+        font-size: 2rem;
+    }
+
+    /* #testimonials img {
+        border-radius: 100%;
+        padding: 4%;
+        height: 150px;
+        display: block;
+        margin: auto;
+        line-height: 2px;
+    } */
+
+    .press-logo {
+        height: 20%;
+        width: 40%;
+        display: block;
+        margin: auto;
+    }
+
+}
